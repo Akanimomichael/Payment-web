@@ -11,11 +11,15 @@ body{
     overflow-x: hidden;
     /* position: relative; */
     display: block;
+    max-width: 1366px;
+    width: 100%;
     background: #FEFEFE;
+    justify-content: center;
 }
 .sticky {
     position: fixed;
     top: 0;
+    max-width: 1366px;
     width: 100%;
   }
   .sticky + .content {
@@ -23,7 +27,7 @@ body{
   }
 nav{
     height: 5rem;
-    width: 100%;
+    /* width: 100%; */
     background-color: transparent;
     display: flex;
     /* position: fixed; */
@@ -214,4 +218,22 @@ nav{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+/* GET THE MOST OUT OF YOUR INVESTMENTS */
+.get-investment{
+        height: 80vh;
+        position: relative;
+        background-color: aqua;
+        width: 100%;
+        max-width: 1366px;
+        /* right: 50px;
+        margin-left: 50px; */
+        /* left: 50px; */
+        /* margin-right: 2000px; */
+        /* padding-left:2000px; */
+        /* margin-left: 20%; */
+        margin-top: 70px;
+        border-radius: 20px;
+
 }
