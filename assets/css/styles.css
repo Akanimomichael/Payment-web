@@ -134,6 +134,14 @@ nav{
 
 /*Stying for small screens*/
 @media screen and (max-width: 850px){
+    .phoneDiv{
+        display: none;
+
+    }
+    .div1{
+        width: 100%;
+    }
+   
     nav{
         /* position: ; */
         position: sticky;
