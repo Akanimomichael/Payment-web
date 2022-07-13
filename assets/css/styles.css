@@ -1,8 +1,7 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@600&display=swap');*{
     margin: 0;
     padding: 0;
     /* color: #f2f5f7; */
-    font-family: sans-serif;
     letter-spacing: 1px;
     font-weight: 300;
     box-sizing: border-box;
