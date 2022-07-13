@@ -151,6 +151,9 @@
   border: 1px solid  #f3eded86;
 
 }
+.investment-text{
+  font-weight: 600;
+}
   /* media query section */
 
   /* for pc with a lower screen of 1227px */
