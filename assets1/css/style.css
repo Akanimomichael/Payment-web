@@ -83,6 +83,7 @@
     font: 700 1.2rem "Roboto Slab", sans-serif;
     padding: 1em 2em;
     letter-spacing: 0.05rem;
+    overflow: visible;
   }
   .btn-downloaad:focus {
     outline: 2px dotted rgb(0,0,0);
@@ -96,6 +97,60 @@
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
+
+  /* advantagesstyling section the 3rd DIVS */
+  .p{
+
+  }
+  /* div img styling */
+  .div-img{
+    height: 110px;
+    width: 110px;
+    margin-left: -50px;
+    margin-top: -12px;
+    align-items: flex-start;
+  }
+  /* div content styling */
+  .flex-content{
+    margin-top: 22px;
+    margin-left: -23px;
+  }
+  /* box div styling */
+  .border-div{
+    border: 1px solid  #f3eded86;
+  }
+  .flex-img{
+
+  }
+.flex{
+  display: flex ;
+}
+/* button styling */
+.account-opening-button{
+  padding: 4px 10px;
+  background-color:#f3eded;
+  color: rgb(114, 108, 108);
+  border: 0pt;
+  border-radius: 8px;
+  font-weight: 600;
+}
+/* text styling */
+.flex-content > h4{
+  font-weight: 600;
+  color: rgb(58, 56, 56);
+}
+.flex-content > p{
+  color:#646464fa;
+}
+.advantages{
+  font-weight: 600;
+  color: rgba(44, 43, 43, 0.89);
+}
+.margin-top-div3{
+  margin-top: 40px;
+  border: 1px solid  #f3eded86;
+
+}
   /* media query section */
 
   /* for pc with a lower screen of 1227px */
@@ -112,3 +167,8 @@
     font-size: 5vw;
 }
   }
+ @media  (max-width: 770px){
+  .margin-top-flex{
+    margin-top: 40px;
+  }
+ }
