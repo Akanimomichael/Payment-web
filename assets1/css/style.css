@@ -28,8 +28,8 @@
     font-weight: 500;
 }
 .phoneDiv{
- position: absolute;
- left: 50%;
+ /* position: relative; */
+ /* left: 50%; */
 }
 .img{
     height:660px;
