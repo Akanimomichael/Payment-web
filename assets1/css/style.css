@@ -183,6 +183,24 @@ color: black;
 /* partners logo styling*/
 .partners-img{
 }
+.footer-link > a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.521);
+}
+.footer-link > a:hover{
+  color: #E0F54A;
+}
+.next{
+  color: black;
+}
+.display{
+  height: 130px;
+  width: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
 .partners-img >  img{
   height: 100px;
   width: 100px;
@@ -261,7 +279,34 @@ li{
 .company-footer{
 
 }
+.icon {
+  padding: 10px;
+  background: #E0F54A ;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.form{
+  background-color: black;
+  color: rgba(255, 255, 255, 0.384);
+    border-radius: 5px;
 
+}
+.form-wrapper{
+  display: flex;
+
+}
+.social-icon{
+  margin-top: 40px;
+  display: flex;
+}
+.social-icon > a >i{
+  margin: 10px;
+  color: white;
+}
+.social-icon > a > i:hover{
+color: #E0F54A;
+}
 
   /* media query section */
 
@@ -291,6 +336,40 @@ li{
   
   
 }
-@media (max-width: 747px){
+@media (max-width: 900px){
+
+.display{
+  display:block;
+}
+.partners-img{
+  display: none;
+}
   
+  .pro{
+    text-align: center;
+  }
+  .center-list > div{
+margin: 0 auto ;
+margin-top: 20px;
+  }
+  .subscribe{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .form-wrapper{
+    margin: 20px;
+    margin-top: 20px;
+
+  }
+  .form{
+    width: 80%;
+  }
+  .social-icon{
+    margin-top: 30px;
+    margin-left: 30%;
+    
+  }
+  .h2-trade{
+    margin-top: 20px;
+  }
 }
