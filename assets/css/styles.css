@@ -136,8 +136,20 @@ nav{
         display: none;
 
     }
+    .img-phone-black{
+        display: none;
+        width: 0%;
+    }
+    .arrow-dark{
+        display: none;
+    }
+    .semi-div{
+    }
     .div1{
         width: 100%;
+    }
+    .partners-img{
+        width: 50%;
     }
    
     nav{
@@ -291,7 +303,6 @@ nav{
     /* height: 800vh; */
     width:510px;
     padding: 20px;
-    border: 1px solid;
     justify-content: center;
     text-align:center ;
 }
