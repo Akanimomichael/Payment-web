@@ -272,12 +272,13 @@ nav{
 .investment-card{
     max-width: 90%;
     height: 270px;
-    background: #e4e4e450;
+    background-color: #e4e4e442;
     padding: 20px 35px;
     margin: 20px;
     /* border: 1px solid #B8B8B8 ; */
     border-radius: 20px;
     justify-content: center;
+    border: 0;
 }
 .card-title{
     color: black;

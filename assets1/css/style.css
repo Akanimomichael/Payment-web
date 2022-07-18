@@ -307,7 +307,41 @@ li{
 .social-icon > a > i:hover{
 color: #E0F54A;
 }
+.inside-porfolio{
+  border-radius: 20px;
+  padding: 30px;
+  padding-bottom: 50px ;
+}
+.inside-porfolio1{
+  background-color: #e4e4e442;
+  height: auto;
+  border-radius: 20px;
+}
+.h5-portfolio{
+  font-size:1.5vw;
+  font-weight: 900;
 
+}
+.inside-porfolio > p {
+  color: rgba(0, 0, 0, 0.548);
+}
+.read-more{
+  text-decoration: none;
+  color: black;
+}
+.read-more:hover{
+text-decoration: underline;
+color: rgba(0, 0, 0, 0.425);}
+.div-image-green{
+  margin-bottom: 5px;
+  margin-left: 35px;
+  height: auto;
+  width: 100%;
+  
+}
+.two-div{
+
+}
   /* media query section */
 
 
