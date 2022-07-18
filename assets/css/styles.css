@@ -131,7 +131,7 @@ nav{
 }
 
 /*Stying for small screens*/
-@media screen and (max-width: 850px){
+@media screen and (max-width: 990px){
     .phoneDiv{
         display: none;
 
@@ -224,6 +224,14 @@ nav{
     }
     li.fade{
         opacity: 10;
+    }
+     .main-snake-section{
+        display: none;
+        visibility: hidden;
+    }
+    .section-snake-left{
+        max-width: 1036px ;
+        width: 100%;
     }
 }
 /*Animating toggler Icon on Click*/
@@ -321,3 +329,93 @@ nav{
     word-spacing: 1px;
     /* text-indent: 200px; */
 }
+
+/* SNAKE SECTION */
+svg{
+ height: 420px;
+ /* max-width: 100%;
+ margin-top: 0px !important;
+ padding-top: 0px !important; */
+  /* max-height: 100%; */
+ /* border:1px solid; */
+ margin-right:-20px;
+ fill: none;
+ stroke: white;
+ stroke-width: 100;
+ stroke-dasharray: 2372;
+ stroke-dashoffset: 2372;
+ animation: draw 4s ease-out forwards;
+}
+@keyframes draw {
+100% { stroke-dashoffset: 0; }
+}
+.section-snake-left{
+    /* border: 1px solid red; */
+    padding-top: 20px;
+}
+.big_number h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 3px;
+
+}
+.big_number h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.text-area{
+ margin-top: 20px;   
+}
+.text-area p{
+    font-size: 25px;
+    font-weight: 350;
+
+}
+.circle{
+    /* border: 1px solid green; */
+    overflow: hidden;
+    padding-left: 20px !important;
+    /* width: 400px; */
+}
+@media screen and (max-width: 1270px){
+    /* body{
+        background-color: red;
+    } */
+    svg{
+        width:420px ;
+    }
+    .cicle-inner{
+        /* width: 250px;  */
+        height: 350px !important;
+    }
+}
+@media screen and (max-width: 1170px){
+    /* body{
+        background-color: blue;
+    } */
+    svg{
+        width:380px ;
+    }
+    .cicle-inner{
+        /* width: 250px;  */
+        height: 350px !important;
+    }
+}
+
+ @media screen and (max-width: 1036px){
+    /* body{
+        background-color: brown;
+    } */
+   
+    .big_number h2{
+        font-size: 45px;
+        font-weight: 400;
+    }
+    svg{
+        width:320px ;
+    }
+    .cicle-inner{
+        /* width: 250px;  */
+        height: 320px !important;
+    }
+} 
