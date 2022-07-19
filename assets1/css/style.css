@@ -206,12 +206,15 @@ color: black;
   display: none;
 }
 .partners-img >  img{
-  height: 100px;
-  width: 100px;
+  
   display: block;
   margin-left: auto;
   margin-right: auto;
 
+}
+.partners-img > img{
+  height:50px; 
+  width: 50px;
 }
 /* last card section */
 .div-black-card{
