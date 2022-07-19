@@ -160,6 +160,10 @@ color: black;
   border-radius: 8px;
   font-weight: 600;
 }
+.account-opening-button:hover{
+  background-color: rgba(114, 108, 108, 0.616);
+
+}
 /* text styling */
 .flex-content > h4{
   font-weight: 600;
@@ -241,6 +245,18 @@ color: black;
   color: white;
   border: white 1px ;
 }
+.btn-downloaad2{
+  border: 1px solid rgb(0,0,0);
+  background-color: rgb(0,0,0);
+  color: white;
+  border-radius: 10px;
+  margin-left: 45%;
+  margin-top: 3%;
+}
+.btn-downloaad2:hover{
+  border: 1px solid white;
+  color: white;
+}
 .btn-downloaad1 > i{
   color: black;
 }
@@ -277,8 +293,14 @@ padding-bottom: 70px;
 li{
   list-style: none;
 }
+.big-100{
+  font-weight: 700;
+}
 .company-footer{
 
+}
+.center-download{
+  font-weight: 700;
 }
 .icon {
   padding: 10px;
@@ -355,20 +377,21 @@ color: rgba(0, 0, 0, 0.425);}
 }
 
 .scrolled.fade-in {
-  animation: fade-in 1s ease-in-out both;
+  animation: fade-in 2s ease-in-out both;
 }
 
 .scrolled.fade-in-bottom {
-  animation: fade-in-bottom 1s ease-in-out both;
+  animation: fade-in-bottom 2s ease-in-out both;
 }
 
 .scrolled.slide-left {
-  animation: slide-in-left 1s ease-in-out both;
+  animation: slide-in-left 2s ease-in-out both;
 }
 
 .scrolled.slide-right {
-  animation: slide-in-right 1s ease-in-out both;
+  animation: slide-in-right 2s ease-in-out both;
 }
+
 
 
 @keyframes slide-in-left {
@@ -449,7 +472,9 @@ color: rgba(0, 0, 0, 0.425);}
  }
  @media (max-width: 490px){
   
-  
+  .btn-downloaad2{
+    margin-left: 34%;
+  }
 }
 @media (max-width: 900px){
 
@@ -458,6 +483,9 @@ color: rgba(0, 0, 0, 0.425);}
 }
 .partners-img{
   display: none;
+}
+.btn-downloaad2{
+  margin-left: 38%;
 }
   
   .pro{
